@@ -72,7 +72,7 @@ This project covers key concepts like:
 ---
 
 ### Output Image  
-![Animal Game Preview]()  
+![Animal Game Preview](https://github.com/IT3133-Practical/Assignment-04/blob/main/Screenshot.png)  
 
 ---
 
