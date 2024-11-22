@@ -15,11 +15,26 @@ export default function Game() {
   };
 
   return (
-    <div className="game-wrapper">
-      <div className="header">
-        <h1>ANIMAL MATCHING GAME</h1>
-      </div>
-    </div>
+    <><div className="game-wrapper">
+          <div className="header">
+              <h1>ANIMAL MATCHING GAME</h1>
+          </div>
+      </div><div className="game-container">
+              <div className="column result-column ">
+                  <div className="animal-grid-header"><h2>Result</h2></div>
+                  <span style={{ color: result === "WIN" ? "orange" : "orange" }}>
+                      {result}
+                  </span>
+              </div>
+
+
+              <div className="column name-column">
+                  <div className="animal-grid-header"><h2>Animal Name</h2></div>
+                  {targetAnimal ? targetAnimal.name.toUpperCase() : "Loading..."}
+              </div>
+          </div>
+    </>
+
   );
 };
 
